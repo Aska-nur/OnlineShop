@@ -13,7 +13,7 @@
     </section>
 
     <section class="about-page3">
-      <img src="/image/image.png" alt="Tentang Kami" />
+      <img src="/image/download%20(5).jpg" alt="Tentang Kami" />
     </section>
   </div>
 </template>
