@@ -4,13 +4,13 @@ import ProductCard from '../components/ProductCard.vue'
 const daftarProduk = [
   {
     id: 1,
-    nama: 'Matcha Strawberry Latte',
+    nama: 'Matstraw Latte',
     harga: 100000,
     gambar: '/image/download (5).jpg',
   },
   {
     id: 2,
-    nama: 'Matcha Strawberry Cake',
+    nama: 'Matstraw Cake',
     harga: 35000,
     gambar: '/image/download (6).jpg',
   },
@@ -48,7 +48,7 @@ const daftarProduk = [
   margin-bottom: 1rem;
   font-size: 2rem;
   font-weight: 700;
-  color: #fecafe;
+  color: rgb(112, 15, 106);
 }
 
 .grid {
@@ -57,7 +57,7 @@ const daftarProduk = [
   gap: 1rem;
   align-items: stretch;
   margin: 0 3rem;
-  color: rgb(7, 49, 86);
+  color: rgb(112, 15, 106);
 }
 
 @media (max-width: 768px) {

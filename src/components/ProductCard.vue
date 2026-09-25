@@ -27,11 +27,6 @@ function tambahKeKeranjang(nama) {
   putarSuara()
   alert(`${nama} ditambahkan ke keranjang!`)
 }
-
-function beliSekarang(nama) {
-  putarSuara()
-  alert(`${nama} dipilih untuk beli sekarang!`)
-}
 </script>
 
 <template>
@@ -75,12 +70,12 @@ function beliSekarang(nama) {
   margin-top: 0.75rem;
   font-size: 1.15rem;
   font-weight: 700;
-  color: #1f2937;
+  color: rgb(112, 15, 106);
 }
 
 .product-card p {
   margin: 0.35rem 0 0.75rem;
-  color: #4b5563;
+  color: rgb(112, 15, 106);
   font-weight: 600;
 }
 

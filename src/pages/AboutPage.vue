@@ -13,7 +13,7 @@
     </section>
 
     <section class="about-page3">
-      <img src="/image/download%20(5).jpg" alt="Tentang Kami" />
+      <img src="/image/idk.webp" alt="Tentang Kami" />
     </section>
   </div>
 </template>
@@ -46,23 +46,29 @@
 .text {
   flex: 1;
   display: flex;
+  background: #fecafe;
+  color: #ffffff;
+  border-radius: 18px;
+  padding: 1.5rem 1.25rem;
   flex-direction: column;
   align-items: center;
   text-align: center;
   gap: 0.5rem;
-  margin-top: 1.2rem;
+  margin-top: 1.1rem;
+  box-shadow: 0 0 18px rgba(255, 255, 255, 0.9), 0 0 30px rgba(255, 255, 255, 0.55);
 }
 
 .text h2 {
   font-size: 1.5rem;
-  margin-bottom: 1.2rem;
-  font-weight: 600;
-  color:rgb(7, 49, 86)
+  margin-bottom: 1.1rem;
+  font-weight: 900;
+  color: rgb(112, 15, 106);
 }
 
 .text p {
   margin: 0;
   line-height: 1.6;
+  color: #ffffff;
 }
 
 .about-page3 {

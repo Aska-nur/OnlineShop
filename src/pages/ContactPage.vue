@@ -50,7 +50,7 @@
     font-size: 2rem;
     margin: 0 0 1rem;
     font-weight: 650;
-    color:#fffcff;
+    color: rgb(112, 15, 106);
   }
 
   .text h3,
