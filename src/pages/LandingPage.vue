@@ -19,19 +19,19 @@ function bukaProduk() {
   <main class="landing-page2">
     <h1>🪄</h1>
     <b>Kualitas Terjamin</b>
-    <p>Bahan Berkualitas Premium!!</p>
+    <p>Bahan Berkualitas Premium</p>
     </main>
 
   <main class="landing-page2">
     <h1>💰</h1>
     <b>Harga Bersahabat</b>
-   <p>Ramah Dikantong Gen z!</p>
+   <p>Harga Terjangkau untuk semua</p>
   </main> 
  
   <main class="landing-page2">
     <h1>🚚</h1>
     <b>Pengiriman Cepat</b>
-    <p>Diantar Langsung!!</p>
+    <p>Pengiriman cepat dan aman</p>
     </main>
     </main>
 
@@ -56,7 +56,7 @@ function bukaProduk() {
 .landing-page{
   padding: 2rem;
   text-align: center;
-  background: linear-gradient(rgb(155, 185, 232), rgb(46, 183, 218));
+  background: linear-gradient(#fecafe, #f5d0fe);
   border-radius: 10px;
   display: flex;
   flex-direction: column;
@@ -76,7 +76,7 @@ function bukaProduk() {
   margin-bottom: 2rem;
 }
 .landing-page2{
-  background: linear-gradient(rgb(147, 180, 219), rgb(46, 183, 218));
+  background: linear-gradient( #fecafe, #f5d0fe);
   text-align: center;
   justify-content: center;
   padding: 20px;
@@ -98,14 +98,16 @@ function bukaProduk() {
 }
 .landing-page2 p{
   font-size: 0,1rem;
-  color:rgb(7, 49, 86);
+  color:rgb(112, 15, 106);
 }
 .bk{
   background-color:beige;
 }
 
 .btn-grad {
-  background-image: linear-gradient(to right, #00d2ff 0%, #97cbf4 51%, #00d2ff 100%);
+  background: #ffffff;
+  color: #fecafe;
+  border: 2px solid #fecafe;
 }
 
 .btn-grad {
@@ -115,7 +117,6 @@ function bukaProduk() {
   text-transform: uppercase;
   transition: 0.5s;
   background-size: 200% auto;
-  color: white;
   box-shadow: 0 0 20px #eee;
   border-radius: 10px;
   display: block;

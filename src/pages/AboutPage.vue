@@ -29,7 +29,7 @@
 .about-page {
   padding: 2rem;
   text-align: center;
-  background: linear-gradient(rgb(155, 185, 232), rgb(46, 183, 218));
+  background: linear-gradient(rgb(238, 148, 250), rgb(243, 184, 242));
   border-radius: 10px;
   display: flex;
   flex-direction: column;

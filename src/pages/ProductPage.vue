@@ -17,7 +17,7 @@ const daftarProduk = [
   {
     id: 3,
     nama: 'Matcha Ice Tea',
-    harga: 18000,
+    harga: 50000,
     gambar: '/image/IG_%20af_af9.jpg',
   },
 ]
@@ -41,12 +41,14 @@ const daftarProduk = [
 <style scoped>
 .product-page {
   padding: 2rem 0 3rem;
+  background: #ffffff;
 }
 
 .product-page h1 {
   margin-bottom: 1rem;
   font-size: 2rem;
   font-weight: 700;
+  color: #fecafe;
 }
 
 .grid {

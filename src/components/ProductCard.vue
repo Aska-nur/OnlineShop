@@ -8,6 +8,12 @@ const props = defineProps({
 })
 
 const gambarDipilih = ref(null)
+const suaraKlik = new Audio('/audio/notifikasi.mp3.mp3')
+
+function putarSuara() {
+  suaraKlik.currentTime = 0
+  suaraKlik.play().catch(() => {})
+}
 
 function bukaPreview(src) {
   gambarDipilih.value = src
@@ -18,9 +24,13 @@ function tutupPreview() {
 }
 
 function tambahKeKeranjang(nama) {
-  const suara = new Audio('/audio/nikin-pop-up-something-160353 (2).mp3')
-  suara.play()
+  putarSuara()
   alert(`${nama} ditambahkan ke keranjang!`)
+}
+
+function beliSekarang(nama) {
+  putarSuara()
+  alert(`${nama} dipilih untuk beli sekarang!`)
 }
 </script>
 
@@ -29,7 +39,10 @@ function tambahKeKeranjang(nama) {
     <img :src="props.gambar" :alt="props.nama" @click="bukaPreview(props.gambar)" class="product-image" />
     <h3>{{ props.nama }}</h3>
     <p>Rp {{ props.harga.toLocaleString('id-ID') }}</p>
-    <button @click="tambahKeKeranjang(props.nama)">Tambah ke Keranjang</button>
+
+    <div class="button-group">
+      <button class="btn-primary" @click="tambahKeKeranjang(props.nama)">Tambah ke Keranjang</button>
+    </div>
   </article>
 
   <div v-if="gambarDipilih" class="preview-overlay" @click="tutupPreview">
@@ -39,7 +52,7 @@ function tambahKeKeranjang(nama) {
 
 <style scoped>
 .product-card {
-  background: #fff;
+  background: #ffffff;
   border-radius: 16px;
   box-shadow: 0 10px 25px rgba(15, 23, 42, 0.08);
   padding: 1rem;
@@ -71,15 +84,24 @@ function tambahKeKeranjang(nama) {
   font-weight: 600;
 }
 
+.button-group {
+  display: flex;
+  flex-direction: column;
+  gap: 0.65rem;
+}
+
 .product-card button {
   width: 100%;
   border: none;
   border-radius: 10px;
-  background: linear-gradient(135deg, #2563eb, #3b82f6);
-  color: white;
   font-weight: 600;
   padding: 0.75rem 1rem;
   cursor: pointer;
+}
+
+.btn-primary {
+  background: linear-gradient(135deg, #fecafe, #d8b4fe);
+  color: #ffffff;
 }
 
 .preview-overlay {
@@ -94,7 +116,7 @@ function tambahKeKeranjang(nama) {
 }
 
 .preview-image {
-  max-width: 80%;
+  max-width: 70%;
   max-height: 80%;
   border-radius: 12px;
 }

@@ -37,26 +37,34 @@
     width: 95%;
   } 
 
-  .text h1 {
-    font-size: 2rem;
+  .text {
+    background: linear-gradient(135deg, #fecafe, #f5d0fe);
+    border-radius: 16px;
+    padding: 1.5rem 1.25rem 1.5rem 1.5rem;
     margin-top: 2rem;
     margin-left: 2.3rem;
+    box-shadow: 0 8px 20px rgba(98, 32, 114, 0.12);
+  }
+
+  .text h1 {
+    font-size: 2rem;
+    margin: 0 0 1rem;
     font-weight: 650;
-    color:rgb(7, 49, 86);
+    color:#fffcff;
   }
 
   .text h3,
   .text p {
     font-size: 1.2rem;
-    margin-left: 2.3rem;
+    margin: 0.5rem 0;
     font-weight: 600;
-    color:rgb(7, 49, 86);
+    color: #fffcff;
   }
 
   .contact-page {
   padding: 2rem;
   text-align: center;
-  background: linear-gradient(rgb(155, 185, 232), rgb(46, 183, 218));
+  background: linear-gradient(135deg, #fecafe, #f5d0fe);
   border-radius: 10px;
   display: flex;
   flex-direction: column;
@@ -80,7 +88,7 @@
     padding: 1rem;
     border: 1px solid rgba(135, 157, 245, 0.45);
     border-radius: 16px;
-    background: linear-gradient(rgb(180, 210, 247), rgb(157, 229, 247));
+    background: linear-gradient(135deg, #fecafe, #f5d0fe);
     box-shadow: 0 9px 21px rgba(6, 13, 18, 0.18);
     box-sizing: border-box;
   }
@@ -95,7 +103,7 @@
 
   .formulir p {
     margin: 0.35rem 0 0;
-    color:rgb(7, 49, 86);
+    color:rgb(248, 200, 241);
   }
 
   .formulir input,
@@ -107,7 +115,7 @@
   }
 
   .btn-grad {
-  background-image: linear-gradient(to right, #00d2ff 0%, #97cbf4 51%, #00d2ff 100%);
+  background-image: linear-gradient(to right,  #fecafe, #f5d0fe, #f5d0fe 100%);
 }
 
 .btn-grad {
@@ -117,8 +125,8 @@
   text-transform: uppercase;
   transition: 0.5s;
   background-size: 150% auto;
-  color: rgb(32, 16, 122);
-  box-shadow: 0 0 20px #2b1270;
+  color: #ffffff;
+  box-shadow: 0 0 20px #ffffff;
   border-radius: 999px;
   display: block;
   outline: none;

@@ -40,7 +40,7 @@ const navItems = [
   margin: 0;
   font-size: 1.2rem;
   font-weight: 700;
-  color: #224c8d;
+  color: rgb(112, 15, 106);
 }
 
 .nav-links {
@@ -52,7 +52,7 @@ const navItems = [
 
 .nav-link {
   text-decoration: none;
-  color: #374151;
+  color:rgb(112, 15, 106);
   font-weight: 600;
   padding: 0.65rem 1rem;
   border-radius: 0.75rem;
@@ -61,12 +61,12 @@ const navItems = [
 
 .nav-link:hover {
   background: #eff6ff;
-  color: #1d4ed8;
+  color: #fecafe;
 }
 
 .nav-link.router-link-active,
 .nav-link.router-link-exact-active {
-  background: linear-gradient(135deg, #2563eb, #3b82f6);
+  background: linear-gradient(135deg,  #fecafe, #f5d0fe);
   color: #ffffff;
   box-shadow: 0 8px 16px rgba(37, 99, 235, 0.2);
 }
